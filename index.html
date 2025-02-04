@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart School Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Smart School Hub</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#student-portal">Student Portal</a></li>
+                <li><a href="#homework-tracker">Homework Tracker</a></li>
+                <li><a href="#event-calendar">Event Calendar</a></li>
+                <li><a href="#teacher-directory">Teacher Directory</a></li>
+                <li><a href="#parent-dashboard">Parent Dashboard</a></li>
+                <li><a href="#news">School News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Student Portal Section -->
+    <section id="student-portal" class="section">
+        <h2>Student Portal</h2>
+        <p>Access your timetables, assignments, and grades here.</p>
+        <div class="portal-content">
+            <div class="timetable">
+                <h3>Timetable</h3>
+                <p>Your weekly schedule will appear here.</p>
+            </div>
+            <div class="assignments">
+                <h3>Assignments</h3>
+                <p>View and submit your assignments.</p>
+            </div>
+            <div class="grades">
+                <h3>Grades</h3>
+                <p>Check your latest grades.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Homework Tracker Section -->
+    <section id="homework-tracker" class="section">
+        <h2>Homework Tracker</h2>
+        <p>Track your homework and due dates.</p>
+    </section>
+
+    <!-- Event Calendar Section -->
+    <section id="event-calendar" class="section">
+        <h2>Event Calendar</h2>
+        <p>Stay updated with school events, exams, and holidays.</p>
+    </section>
+
+    <!-- Teacher Directory Section -->
+    <section id="teacher-directory" class="section">
+        <h2>Teacher Directory</h2>
+        <p>Find your teachers and their contact information.</p>
+    </section>
+
+    <!-- Parent Dashboard Section -->
+    <section id="parent-dashboard" class="section">
+        <h2>Parent Dashboard</h2>
+        <p>Track your child's progress and school updates.</p>
+    </section>
+
+    <!-- School News Section -->
+    <section id="news" class="section">
+        <h2>School News</h2>
+        <p>Latest updates and announcements.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Smart School Hub. All rights reserved.</p>
+    </footer>
+
+    <!-- Chatbot Section -->
+    <div class="chatbot">
+        <button onclick="toggleChat()">Chat with Us</button>
+        <div id="chat-window" class="hidden">
+            <div id="chat-box"></div>
+            <input type="text" id="user-input" placeholder="Type your question...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
